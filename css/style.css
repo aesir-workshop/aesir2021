@@ -17,6 +17,16 @@ body {
 	color:#656565;
 }
 
+.CookieBar {
+ bottom: 0;
+ display: none;
+ left: 0;
+ position: fixed;
+ width: 100%;
+ z-index: 1200;
+}
+
+
 a:active {
 	outline:0;
 }
@@ -136,7 +146,7 @@ header  .navbar-nav > li > a {
     padding-bottom: 6px;
     padding-top: 5px;
     margin-left: 2px;
-    line-height: 30px;
+    /*line-height: 30px;*/
 	font-weight: 700;
     -webkit-transition: all .3s ease;
     -moz-transition: all .3s ease;
